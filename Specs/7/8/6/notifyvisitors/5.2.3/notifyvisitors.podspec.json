@@ -23,7 +23,7 @@
     "notifyvisitors/Assets/**/*.png",
     "notifyvisitors/Classes/nvResourceValues.plist"
   ],
-  "vendored_libraries": "notifyvisitors/Classes/**/*.a",
+  "vendored_libraries": "notifyvisitors/Classes/libnotifyvisitors_5_2_3.a",
   "pod_target_xcconfig": {
     "OTHER_LDFLAGS": "-lObjC"
   }
