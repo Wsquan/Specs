@@ -21,12 +21,32 @@
   "platforms": {
     "ios": "9.0"
   },
-  "ios": {
-    "vendored_frameworks": "MapmyIndiaGeofenceUI.framework"
-  },
-  "dependencies": {
-    "MapmyIndiaMaps": [
-      "~> 5.7.10"
-    ]
-  }
+  "default_subspecs": "Complete",
+  "subspecs": [
+    {
+      "name": "Complete",
+      "dependencies": {
+        "MapmyIndiaGeofenceUI/Base": [
+
+        ],
+        "MapmyIndiaGeofenceUI/Dependencies": [
+
+        ]
+      }
+    },
+    {
+      "name": "Base",
+      "ios": {
+        "vendored_frameworks": "MapmyIndiaGeofenceUI.framework"
+      }
+    },
+    {
+      "name": "Dependencies",
+      "dependencies": {
+        "MapmyIndiaMaps": [
+          "~> 5.7.10"
+        ]
+      }
+    }
+  ]
 }

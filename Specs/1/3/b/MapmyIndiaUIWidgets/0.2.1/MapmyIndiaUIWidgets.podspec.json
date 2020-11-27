@@ -21,14 +21,34 @@
   "platforms": {
     "ios": "9.0"
   },
-  "ios": {
-    "vendored_frameworks": "MapmyIndiaUIWidgets.framework"
-  },
-  "dependencies": {
-    "MapmyIndiaAPIKit": [
-      "~> 1.4.1"
-    ]
-  },
   "swift_versions": "4.2",
+  "default_subspecs": "Complete",
+  "subspecs": [
+    {
+      "name": "Complete",
+      "dependencies": {
+        "MapmyIndiaUIWidgets/Base": [
+
+        ],
+        "MapmyIndiaUIWidgets/Dependencies": [
+
+        ]
+      }
+    },
+    {
+      "name": "Base",
+      "ios": {
+        "vendored_frameworks": "MapmyIndiaUIWidgets.framework"
+      }
+    },
+    {
+      "name": "Dependencies",
+      "dependencies": {
+        "MapmyIndiaAPIKit": [
+          "~> 1.4.1"
+        ]
+      }
+    }
+  ],
   "swift_version": "4.2"
 }

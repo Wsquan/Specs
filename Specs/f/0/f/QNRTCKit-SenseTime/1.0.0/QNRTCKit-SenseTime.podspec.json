@@ -15,8 +15,8 @@
   },
   "requires_arc": true,
   "vendored_frameworks": [
-    "PLSTArEffects.framework",
-    "QNRTCKit.framework"
+    "QNRTCKit-SenseTime-1.0.0/PLSTArEffects.framework",
+    "QNRTCKit-SenseTime-1.0.0/QNRTCKit.framework"
   ],
   "frameworks": [
     "UIKit",

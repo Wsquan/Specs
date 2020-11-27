@@ -2,7 +2,7 @@
   "name": "TPNS-iOS-OA-Extension",
   "version": "1.2.7.2",
   "summary": "腾讯移动推送(iOS)",
-  "homepage": "https://git.code.oa.com/tpns/XG-CocoaPods.git",
+  "homepage": "http://git.code.oa.com/tpns/XG-CocoaPods.git",
   "authors": "tencent",
   "license": "MIT",
   "platforms": {
@@ -17,7 +17,7 @@
   ],
   "libraries": "z",
   "source": {
-    "git": "https://git.code.oa.com/tpns/XG-CocoaPods.git",
+    "git": "http://git.code.oa.com/tpns/XG-CocoaPods.git",
     "tag": "TPNS-iOS-V1.2.7.2-Extension"
   },
   "source_files": "XGVIPPush/extension/XGExtension.h",

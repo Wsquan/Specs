@@ -1,7 +1,7 @@
 {
   "name": "PLMediaStreamingKit-SenseTime",
   "version": "1.0.0",
-  "summary": "Qiniu RTC SDK for iOS.",
+  "summary": "Qiniu Streaming SDK for iOS.",
   "license": "Apache License, Version 2.0",
   "homepage": "https://www.qiniu.com",
   "authors": {
@@ -15,9 +15,9 @@
   },
   "requires_arc": true,
   "vendored_frameworks": [
-    "PLSTArEffects.framework",
-    "PLMediaStreamingKit.framework",
-    "HappyDNS.framework"
+    "PLMediaStreamingKit-SenseTime-1.0.0/PLSTArEffects.framework",
+    "PLMediaStreamingKit-SenseTime-1.0.0/PLMediaStreamingKit.framework",
+    "PLMediaStreamingKit-SenseTime-1.0.0/HappyDNS.framework"
   ],
   "libraries": [
     "sqlite3.0"

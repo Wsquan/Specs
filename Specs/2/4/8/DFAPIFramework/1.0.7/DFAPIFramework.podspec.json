@@ -21,19 +21,5 @@
     "vendored_frameworks": "DFAPIFramework.framework"
   },
   "swift_versions": "4.2",
-  "dependencies": {
-    "Alamofire": [
-
-    ],
-    "SwiftyJWT": [
-
-    ],
-    "CryptoSwift": [
-      "~> 0.9.0"
-    ],
-    "BCryptSwift": [
-
-    ]
-  },
   "swift_version": "4.2"
 }

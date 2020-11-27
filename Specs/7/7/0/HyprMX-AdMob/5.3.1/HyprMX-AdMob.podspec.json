@@ -41,7 +41,7 @@
       "name": "Core",
       "dependencies": {
         "HyprMX/Core": [
-
+          "5.3.0"
         ],
         "Google-Mobile-Ads-SDK": [
 

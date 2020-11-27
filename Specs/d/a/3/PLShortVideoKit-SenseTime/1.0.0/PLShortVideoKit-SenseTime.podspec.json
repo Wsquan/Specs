@@ -1,7 +1,7 @@
 {
   "name": "PLShortVideoKit-SenseTime",
   "version": "1.0.0",
-  "summary": "Qiniu RTC SDK for iOS.",
+  "summary": "Qiniu ShortVideo SDK for iOS.",
   "license": "Apache License, Version 2.0",
   "homepage": "https://www.qiniu.com",
   "authors": {
@@ -20,11 +20,11 @@
     ]
   },
   "vendored_frameworks": [
-    "PLSTArEffects.framework",
-    "PLShortVideoKit.framework"
+    "PLShortVideoKit-SenseTime-1.0.0/PLSTArEffects.framework",
+    "PLShortVideoKit-SenseTime-1.0.0/PLShortVideoKit.framework"
   ],
   "vendored_libraries": [
-    "libMuseProcessor.a"
+    "PLShortVideoKit-SenseTime-1.0.0/libMuseProcessor.a"
   ],
   "libraries": [
     "sqlite3.0"
