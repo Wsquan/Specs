@@ -15,7 +15,7 @@
     "ios": "9.0"
   },
   "source": {
-    "http": "https://d3g.qq.com/gdt/sdk/ios/release/GDT_iOS_SDK_4.11.12.zip"
+    "http": "https://d3g.qq.com/gdt/sdk/ios/release/GDT_iOS_SDK_4.11.12_fix_for_vd.zip"
   },
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"

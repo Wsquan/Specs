@@ -13,12 +13,6 @@
   "platforms": {
     "ios": "9.0"
   },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
   "documentation_url": "https://idwall-sdk.readme.io/",
   "description": "Our iOS SDK provides the following services: capture quality-scanned documents, capture selfie with liveness \nproof and send information to our server, where all functionality returns real-time feedback to the user, \nthus the user will always have a response when using our SDK.",
   "source": {

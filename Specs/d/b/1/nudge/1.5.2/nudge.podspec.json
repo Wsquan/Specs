@@ -1,6 +1,7 @@
 {
   "name": "nudge",
   "version": "1.5.2",
+  "swift_versions": "5.1",
   "summary": "Nudge is a powerful tool that enables mobile banking apps to send push notifications to users.",
   "description": "Nudge is a powerful tool that enables mobile banking apps to send push notifications to users. Register today!",
   "homepage": "https://github.com/getlarky/nudge-ios",

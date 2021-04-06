@@ -11,7 +11,7 @@
   "homepage": "https://bitbucket.org/addapptr/aatkit-ios/wiki/Home",
   "license": {
     "type": "Copyright",
-    "text": "Copyright 2012\\u20132020 AddApptr GmbH."
+    "text": "Copyright 2012\\u20132021 AddApptr GmbH."
   },
   "authors": {
     "Addapptr GmbH": "support@addapptr.com"
@@ -23,7 +23,7 @@
   "requires_arc": false,
   "source": {
     "http": "https://ios-sdk.aatkit.com/aatkit-2.72.0-beta5.zip",
-    "sha256": "a38ad7d7480258e817a257dd676ce69e7e85f34990fadf2c98920d993975c7c6"
+    "sha256": "8c58fcb1b33d7f5fc1f6cff9faa85f3e0615e6291b086911c610bee35d4ffb9d"
   },
   "default_subspecs": "Default",
   "subspecs": [
