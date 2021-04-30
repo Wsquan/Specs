@@ -1,9 +1,13 @@
 {
   "name": "MTSDK",
   "version": "1.0.2",
-  "summary": "Extesion some class for coding",
-  "swift_versions": "4.2",
-  "description": "This CocoaPods library helps you perform calculation",
+  "summary": "Extension some class for coding",
+  "swift_versions": [
+    "5.1",
+    "5.2",
+    "5.3"
+  ],
+  "description": "This CocoaPods library is software development kit for iOS",
   "homepage": "https://hominhtuong.com",
   "license": {
     "type": "MIT",
@@ -13,7 +17,7 @@
     "Minh Tường": ""
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
   "source": {
     "git": "https://github.com/hominhtuong/MTSDK.git",
@@ -21,9 +25,15 @@
   },
   "source_files": "MTSDK/**/*.{h,m,swift}",
   "dependencies": {
+    "SwiftMessages": [
+      "~> 9.0"
+    ],
     "SnapKit": [
       "~> 5.0.0"
+    ],
+    "NVActivityIndicatorView": [
+      "~> 5.1"
     ]
   },
-  "swift_version": "4.2"
+  "swift_version": "5.3"
 }

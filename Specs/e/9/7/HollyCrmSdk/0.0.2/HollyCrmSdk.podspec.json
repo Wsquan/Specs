@@ -1,7 +1,7 @@
 {
   "name": "HollyCrmSdk",
   "version": "0.0.2",
-  "summary": "s合力云客服sdk",
+  "summary": "合力云客服sdk",
   "description": "合力云客服sdk",
   "homepage": "https://gitee.com/hunterxman/holly-crm-sdk",
   "license": "MIT",
@@ -15,10 +15,12 @@
     "git": "https://gitee.com/hunterxman/holly-crm-sdk",
     "tag": "0.0.2"
   },
-  "source_files": [
-    "HollyCrmSdk/**/*.{h,m}",
-    "debug/*.{h,m}"
-  ],
+  "ios": {
+    "vendored_frameworks": "HollyCrmSdk.framework"
+  },
+  "source_files": "HollyCrmSdk/*.{h,m}",
+  "public_header_files": "HollyCrmSdk/HollyCrmSdk/HollyCrmSdk.h",
+  "resources": "HC.bundle",
   "frameworks": [
     "WebKit",
     "Foundation",
@@ -31,5 +33,5 @@
       "~> 8.0"
     ]
   },
-  "deprecated": true
+  "static_framework": true
 }

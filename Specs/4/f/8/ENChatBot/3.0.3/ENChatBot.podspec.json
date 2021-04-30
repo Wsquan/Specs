@@ -36,10 +36,10 @@
   },
   "dependencies": {
     "Socket.IO-Client-Swift": [
-      ">= 15.1.0"
+      "=15.2.0"
     ],
     "Kingfisher": [
-
+      "=5.13.0"
     ]
   },
   "swift_version": "5.3.1"
