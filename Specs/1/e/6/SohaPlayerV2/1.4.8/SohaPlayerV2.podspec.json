@@ -3,13 +3,13 @@
   "version": "1.4.8",
   "summary": "Everything about this project under our ownership",
   "description": "Everything about this project under our ownership, giong cai sumary no chui",
-  "homepage": "https://github.com/songoku20/SohaPlayer-SDK",
+  "homepage": "http://stv-git.sohatv.vn/thaina/sohaplayer-sdk-ios-public",
   "license": "MIT",
   "authors": {
-    "songoku20": "sonleminh@vccorp.vn"
+    "hungnt": "hungnguyenthac@vccorp.vn"
   },
   "source": {
-    "http": "https://github.com/songoku20/SohaPlayer-SDK/releases/download/1.4.8/SohaPlayerV2-1.4.8.zip"
+    "http": "http://stv-git.sohatv.vn/thaina/sohaplayer-sdk-ios-public/uploads/e4a0562fa9521a8c2a0554a1b13b3e8b/SohaPlayerV2-1.4.8.zip"
   },
   "source_files": "SohaPlayer.framework/Versions/A/Headers/SohaPlayerManager.h",
   "pod_target_xcconfig": {

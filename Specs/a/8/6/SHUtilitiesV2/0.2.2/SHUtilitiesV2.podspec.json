@@ -3,13 +3,13 @@
   "version": "0.2.2",
   "summary": "A short description of SHUtilitiesV2.",
   "description": "Everything about this project under our ownership in SHUtilitiesV2-iOS",
-  "homepage": "https://github.com/zl0kun1/SHUtilitiesV2",
+  "homepage": "http://stv-git.sohatv.vn/suunguyencong/shutilitiesv2-publish",
   "license": "MIT",
   "authors": {
-    "zl0kun1": "zelly0kun1@gmail.com"
+    "hungnt": "hungnguyenthac@vccorp.vn"
   },
   "source": {
-    "http": "https://github.com/zl0kun1/SHUtilitiesV2/releases/download/0.2.2/SHUtilitiesV2-0.2.2.zip"
+    "http": "http://stv-git.sohatv.vn/suunguyencong/shutilitiesv2-publish/uploads/eaf3d5849a0178901696c37090e09a39/SHUtilitiesV2-0.2.2.zip"
   },
   "platforms": {
     "ios": "8.0"

@@ -3,16 +3,16 @@
   "version": "0.1.6",
   "summary": "A short description of SHPlayerDash.",
   "description": "Everything about this project under our ownership in SHPlayerDash-iOS",
-  "homepage": "https://github.com/zl0kun1/SHPlayerDash",
+  "homepage": "http://stv-git.sohatv.vn/suunguyencong/shplayerdash-publish",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "zl0kun1": "zelly0kun1@gmail.com"
+    "hungnt": "hungnguyenthac@vccorp.vn"
   },
   "source": {
-    "http": "https://github.com/zl0kun1/SHPlayerDash/releases/download/0.1.6/SHPlayerDash-0.1.6.zip"
+    "http": "http://stv-git.sohatv.vn/suunguyencong/shplayerdash-publish/uploads/3acf0aa2c566cddd9961ae430f597781/SHPlayerDash-0.1.6.zip"
   },
   "platforms": {
     "ios": "8.0"

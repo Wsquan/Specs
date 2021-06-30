@@ -15,21 +15,12 @@
   "platforms": {
     "ios": "9.0"
   },
-  "xcconfig": {
-    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  "static_framework": true,
+  "info_plist": {
+    "TEST-INFO-PLIST": "com.sayaDev.TKUIKit"
   },
-  "frameworks": [
-    "UIKit",
-    "Foundation",
-    "CoreServices"
-  ],
-  "public_header_files": "TKUIKit/*.h",
   "source_files": "TKUIKit/*.{h,m,xib}",
-  "resource_bundles": {
-    "TKUIKit": [
-      "TKUIKit/**/**/*.{xib}"
-    ]
-  },
+  "public_header_files": "TKUIKit/*.h",
   "subspecs": [
     {
       "name": "Core",
@@ -41,17 +32,38 @@
         "TKUIKit/Core/*.h",
         "TKUIKit/Core/**/*.h"
       ],
+      "resource_bundles": {
+        "TKUIKit": [
+          "TKUIKit/**/**/*.{xib}"
+        ]
+      },
       "dependencies": {
         "TKBaseKit/TKSDKUniversal": [
-
-        ],
-        "TKBaseKit/TKSDKTool": [
 
         ],
         "TKPermissionKit/Photo": [
 
         ],
         "TKPermissionKit/Camera": [
+
+        ],
+        "MBProgressHUD": [
+
+        ]
+      }
+    },
+    {
+      "name": "Anim",
+      "source_files": [
+        "TKUIKit/Anim/*.{h,m,xib}",
+        "TKUIKit/Anim/**/*.{h,m,xib}"
+      ],
+      "public_header_files": [
+        "TKUIKit/Anim/*.h",
+        "TKUIKit/Anim/**/*.h"
+      ],
+      "dependencies": {
+        "TKUIKit/Core": [
 
         ]
       }
@@ -68,6 +80,9 @@
       ],
       "dependencies": {
         "TKUIKit/Core": [
+
+        ],
+        "TKUIKit/Anim": [
 
         ]
       }

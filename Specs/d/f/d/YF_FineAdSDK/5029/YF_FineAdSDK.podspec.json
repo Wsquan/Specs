@@ -73,13 +73,13 @@
   ],
   "dependencies": {
     "YF_Core": [
-      "1.2.0"
+
     ],
     "YF_Utils": [
-      "1.1.3"
+
     ],
     "YF_Data": [
-      "1.1.9"
+
     ]
   },
   "subspecs": [
