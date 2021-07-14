@@ -12,7 +12,7 @@
     "IronSource": "http://www.is.com/contact/"
   },
   "source": {
-    "http": "https://dl.bintray.com/ironsource-mobile/ios-adapters/ISAmazonAdapter4.3.5.zip"
+    "http": "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/amazon-adapter/4.3.5/ISAmazonAdapter4.3.5.zip"
   },
   "source_files": "ISAmazonAdapter/ISAmazonAdapter.framework/**/*.{h,m}",
   "public_header_files": "ISAmazonAdapter/ISAmazonAdapter.framework/**/*.h",

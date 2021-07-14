@@ -12,7 +12,7 @@
     "IronSource": "http://www.is.com/contact/"
   },
   "source": {
-    "http": "https://dl.bintray.com/ironsource-mobile/ios-adapters/ISMyTargetAdapter4.1.7.zip"
+    "http": "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/mytarget-adapter/4.1.7/ISMyTargetAdapter4.1.7.zip"
   },
   "source_files": "ISMyTargetAdapter/ISMyTargetAdapter.framework/**/*.{h,m}",
   "public_header_files": "ISMyTargetAdapter/ISMyTargetAdapter.framework/**/*.h",

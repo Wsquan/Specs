@@ -12,7 +12,7 @@
     "IronSource": "http://www.is.com/contact/"
   },
   "source": {
-    "http": "https://dl.bintray.com/ironsource-mobile/ios-adapters/ISFacebookAdapter4.3.24.zip"
+    "http": "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/facebook-adapter/4.3.24/ISFacebookAdapter4.3.24.zip"
   },
   "source_files": "ISFacebookAdapter/ISFacebookAdapter.framework/**/*.{h,m}",
   "public_header_files": "ISFacebookAdapter/ISFacebookAdapter.framework/**/*.h",

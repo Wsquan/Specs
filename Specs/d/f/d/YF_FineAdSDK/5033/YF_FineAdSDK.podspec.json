@@ -181,7 +181,7 @@
       "name": "Facebook",
       "dependencies": {
         "FBAudienceNetwork": [
-          "6.5.0"
+          "6.3.0"
         ],
         "YF_FineAdSDK/FineSDK": [
 

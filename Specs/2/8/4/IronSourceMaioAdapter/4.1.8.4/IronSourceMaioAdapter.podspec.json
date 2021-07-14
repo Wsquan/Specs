@@ -12,7 +12,7 @@
     "IronSource": "http://www.is.com/contact/"
   },
   "source": {
-    "http": "https://dl.bintray.com/ironsource-mobile/ios-adapters/ISMaioAdapter4.1.8.zip"
+    "http": "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/maio-adapter/4.1.8/ISMaioAdapter4.1.8.zip"
   },
   "source_files": "ISMaioAdapter/ISMaioAdapter.framework/**/*.{h,m}",
   "public_header_files": "ISMaioAdapter/ISMaioAdapter.framework/**/*.h",

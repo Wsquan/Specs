@@ -12,7 +12,7 @@
     "IronSource": "http://www.is.com/contact/"
   },
   "source": {
-    "http": "https://dl.bintray.com/ironsource-mobile/ios-adapters/ISAppLovinAdapter4.3.23.zip"
+    "http": "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/applovin-adapter/4.3.23/ISAppLovinAdapter4.3.23.zip"
   },
   "source_files": "ISAppLovinAdapter/ISAppLovinAdapter.framework/**/*.{h,m}",
   "public_header_files": "ISAppLovinAdapter/ISAppLovinAdapter.framework/**/*.h",

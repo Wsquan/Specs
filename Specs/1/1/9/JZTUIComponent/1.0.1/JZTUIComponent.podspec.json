@@ -19,31 +19,23 @@
     "ios": "9.0"
   },
   "swift_versions": "5.0",
+  "source_files": "JZTUIComponent/Classes/**/*",
+  "resource_bundles": {
+    "JZTUIComponent_pic": [
+      "JZTUIComponent/Assets/**/*.*"
+    ]
+  },
   "frameworks": "UIKit",
   "dependencies": {
     "SnapKit": [
 
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "MBProgressHUD": [
+
     ]
   },
-  "subspecs": [
-    {
-      "name": "CommonTest",
-      "source_files": "JZTUIComponent/Classes/CommonTest/**/*",
-      "dependencies": {
-        "JZTUIComponent/Utils": [
-
-        ]
-      },
-      "resource_bundles": {
-        "JZTUIComponent_test": [
-          "JZTUIComponent/Assets/CommonTest/*.*"
-        ]
-      }
-    },
-    {
-      "name": "Utils",
-      "source_files": "JZTUIComponent/Classes/Utils/**/*"
-    }
-  ],
   "swift_version": "5.0"
 }

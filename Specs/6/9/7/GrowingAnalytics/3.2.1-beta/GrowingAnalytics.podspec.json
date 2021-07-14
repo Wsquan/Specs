@@ -39,6 +39,9 @@
         "GrowingAnalytics/MobileDebugger": [
 
         ],
+        "GrowingAnalytics/Database": [
+
+        ],
         "GrowingAnalytics/Network": [
 
         ],
@@ -56,9 +59,6 @@
       "dependencies": {
         "GrowingAnalytics/TrackerCore": [
 
-        ],
-        "GrowingAnalytics/Hybrid": [
-
         ]
       },
       "private_header_files": "GrowingAutotrackerCore/Private/*{.h,.m,.c,.cpp,.mm}",
@@ -73,10 +73,16 @@
         "GrowingAnalytics/AutotrackerCore": [
 
         ],
+        "GrowingAnalytics/Hybrid": [
+
+        ],
         "GrowingAnalytics/MobileDebugger": [
 
         ],
         "GrowingAnalytics/WebCircle": [
+
+        ],
+        "GrowingAnalytics/Database": [
 
         ],
         "GrowingAnalytics/Network": [
@@ -86,6 +92,15 @@
 
         ],
         "GrowingAnalytics/Compression": [
+
+        ]
+      }
+    },
+    {
+      "name": "Database",
+      "source_files": "Services/Database/**/*{.h,.m,.c,.cpp,.mm}",
+      "dependencies": {
+        "GrowingAnalytics/TrackerCore": [
 
         ]
       }

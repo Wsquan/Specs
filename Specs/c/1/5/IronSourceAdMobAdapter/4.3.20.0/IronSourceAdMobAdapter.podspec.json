@@ -12,7 +12,7 @@
     "IronSource": "http://www.is.com/contact/"
   },
   "source": {
-    "http": "https://dl.bintray.com/ironsource-mobile/ios-adapters/ISAdMobAdapter4.3.20.zip"
+    "http": "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/admob-adapter/4.3.20/ISAdMobAdapter4.3.20.zip"
   },
   "source_files": "ISAdMobAdapter/ISAdMobAdapter.framework/**/*.{h,m}",
   "public_header_files": "ISAdMobAdapter/ISAdMobAdapter.framework/**/*.h",

@@ -12,7 +12,7 @@
     "IronSource": "http://www.is.com/contact/"
   },
   "source": {
-    "http": "https://dl.bintray.com/ironsource-mobile/ios-adapters/ISPangleAdapter4.3.0.zip"
+    "http": "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/pangle-adapter/4.3.0/ISPangleAdapter4.3.0.zip"
   },
   "source_files": "ISPangleAdapter/ISPangleAdapter.framework/**/*.{h,m}",
   "public_header_files": "ISPangleAdapter/ISPangleAdapter.framework/**/*.h",

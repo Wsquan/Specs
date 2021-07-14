@@ -12,7 +12,7 @@
     "IronSource": "http://www.is.com/contact/"
   },
   "source": {
-    "http": "https://dl.bintray.com/ironsource-mobile/ios-adapters/ISSmaatoAdapter4.3.1.zip"
+    "http": "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/smaato-adapter/4.3.1/ISSmaatoAdapter4.3.1.zip"
   },
   "source_files": "ISSmaatoAdapter/ISSmaatoAdapter.framework/**/*.{h,m}",
   "public_header_files": "ISSmaatoAdapter/ISSmaatoAdapter.framework/**/*.h",

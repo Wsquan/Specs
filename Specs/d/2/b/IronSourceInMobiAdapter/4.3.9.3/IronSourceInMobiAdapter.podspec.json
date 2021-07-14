@@ -12,7 +12,7 @@
     "IronSource": "http://www.is.com/contact/"
   },
   "source": {
-    "http": "https://dl.bintray.com/ironsource-mobile/ios-adapters/ISInMobiAdapter4.3.9.zip"
+    "http": "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/inmobi-adapter/4.3.9/ISInMobiAdapter4.3.9.zip"
   },
   "source_files": "ISInMobiAdapter/ISInMobiAdapter.framework/**/*.{h,m}",
   "public_header_files": "ISInMobiAdapter/ISInMobiAdapter.framework/**/*.h",

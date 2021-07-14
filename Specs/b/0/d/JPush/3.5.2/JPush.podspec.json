@@ -15,7 +15,7 @@
     "ios": "6.0"
   },
   "source": {
-    "http": "https://sdkfiledl.jiguang.cn/cocoapods/jpush/JPush-iOS-3.5.2.zip"
+    "http": "https://sdkfiledl.jiguang.cn/cocoapods/jpush/JPush-iOS-3.5.2.2.zip"
   },
   "source_files": "*.h",
   "vendored_libraries": "*.a",

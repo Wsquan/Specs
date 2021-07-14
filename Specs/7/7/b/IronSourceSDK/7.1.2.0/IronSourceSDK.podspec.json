@@ -9,10 +9,10 @@
     "text": "https://platform.ironsrc.com/partners/terms-and-conditions-new-user"
   },
   "authors": {
-    "IronSource": "http://www.ironsrc.com/contact/"
+    "IronSource": "http://www.is.com/contact/"
   },
   "source": {
-    "http": "https://dl.bintray.com/ironsource-mobile/ios-sdk/IronSource7.1.2.zip"
+    "http": "https://raw.githubusercontent.com/ironsource-mobile/iOS-sdk/master/7.1.2/IronSource7.1.2.zip"
   },
   "source_files": "IronSource/IronSource.framework/**/*.{h,m}",
   "public_header_files": "IronSource/IronSource.framework/Versions/A/Headers/*.*",
